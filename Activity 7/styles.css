@@ -1,0 +1,26 @@
+﻿.forest {
+  background-color: #000;
+  background-image: url("forest.jpg");
+  width: 648px;
+  height: 648px;
+}
+
+.element--blocks {
+  padding-left: 15px;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.element--block {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #dedede;
+  width: 64.8px;
+  height: 64.8px;
+}
+
+/* 64 blocks maximum */
